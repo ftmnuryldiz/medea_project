@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent">
+
+            <FrameLayout android:id="@+id/frame"
+                android:background="@drawable/background"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <ImageView android:id="@+id/imageImage"
+                    android:layout_gravity="top|end"
+                    android:layout_height="@dimen/_181pxh"
+                    android:layout_marginTop="@dimen/_210pxv"
+                    android:layout_width="@dimen/_160pxh"
+                    android:scaleType="fitXY"
+                    android:background= "@drawable/img_ellipse_4"/>
+
+                <ImageView android:id="@+id/imageImageOne"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_127pxh"
+                    android:layout_width="@dimen/_111pxh"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/img_ellipse_7"/>
+
+                <LinearLayout
+                    android:id="@+id/linearColumnview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/_20pxh"
+                    android:paddingTop="@dimen/_106pxv"
+                    android:paddingEnd="@dimen/_20pxh"
+                    android:paddingBottom="@dimen/_106pxv"
+
+                    >
+
+                    <View
+                        android:id="@+id/viewView"
+                        android:layout_width="@dimen/_49pxh"
+                        android:layout_height="@dimen/_49pxh"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_102pxv"
+                        android:background="@drawable/ellipse" />
+
+                    <TextView
+                        android:id="@+id/txtSignup"
+                        style="@style/txtLatobold30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_105pxv"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_sign_up"
+                        android:textSize="40dp" />
+
+                    <EditText
+                        android:id="@+id/txtFullNameReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_37pxv"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:hint="Full Name"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        tools:text="@string/lbl_full_name" />
+
+
+                    <EditText
+                        android:id="@+id/txtEmailReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_38pxv"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:hint="E-Mail"
+                        android:singleLine="true"
+                        android:textSize="14dp" />
+
+
+                    <EditText
+                        android:id="@+id/txtPasswordReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_39pxv"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:hint="Password"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        tools:text="@string/lbl_password" />
+
+                    <EditText
+                        android:id="@+id/txtConfirmPasswordReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_39pxv"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:hint="Confirm Password"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        tools:text="Confirm Password" />
+
+                    <EditText
+                        android:id="@+id/txtDateBirthReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_39pxv"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:hint="Select Date Birth dd/mm/yy"
+                        android:inputType="date"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        android:focusable="false"
+                        tools:text="Select Date Birth (dd/mm/yy)  " />
+
+                    <EditText
+                        android:id="@+id/txtMobileReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:hint="Phone Number"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        tools:text="Enter Your Phone Number (without +90)  " />
+
+                    <TextView
+                        android:id="@+id/txtGenderReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_39pxv"
+                        android:layout_marginBottom="10dp"
+                        android:alpha="1"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:text="Gender " />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:elevation="10dp"
+                        android:visibility="gone">
+
+                    </ProgressBar>
+
+
+                    <RadioGroup
+                        android:id="@+id/radio_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtGenderReg"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio_female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Female"
+                            android:textColor="#C60E39"
+                            android:textSize="14dp"></RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/radio_male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Male"
+                            android:textColor="#3F51B5"
+                            android:textSize="14dp"></RadioButton>
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/txtTermAndConditio"
+                        style="@style/txtLatoregular12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_marginEnd="@dimen/_25pxh"
+                        android:alpha="0.9"
+                        android:gravity="center_horizontal"
+                        tools:text="@string/msg_by_signing_up_you_re" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_registerr"
+                        style="@style/btnSolidRounded"
+                        android:layout_width="@dimen/_309pxh"
+                        android:layout_height="@dimen/_37pxv"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_marginEnd="@dimen/_6pxh"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:onClick="signUpClicked"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_3pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_3pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_sign_up"
+                        android:background="@drawable/rectangle_gradient_s_pink_a400_4c_e_purple_600_01_radius_24"
+                        android:textAllCaps="false"
+                        android:textSize="25dp"
+                        tools:text="@string/lbl_sign_up" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+

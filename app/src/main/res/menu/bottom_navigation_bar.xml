@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Mood"
+        android:id="@+id/bottom_mood"
+        android:icon="@drawable/baseline_calendar_month_24"/>
+    <item android:title="Message"
+        android:id="@+id/bottom_comment"
+        android:icon="@drawable/baseline_add_comment_24"/>
+    <item android:title="Favorite"
+        android:id="@+id/bottom_favorite"
+        android:icon="@drawable/heartttt"/>
+    <item android:title="Profile"
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/baseline_face_3_24"/>
+
+</menu>

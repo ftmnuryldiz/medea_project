@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<color name="gray_600">#757575</color>
+  <color name="white_A700_4c">#4cffffff</color>
+  <color name="black_900_7e">#7e000000</color>
+  <color name="gray_600_01">#7f7f7f</color>
+  <color name="black_900_90">#90000000</color>
+  <color name="purple_600_01">#96397c</color>
+  <color name="teal_400">#399196</color>
+  <color name="white_A700_00">#00ffffff</color>
+  <color name="black_900_ab">#ab000000</color>
+  <color name="purple_700_cc">#cc832185</color>
+  <color name="black_900">#000000</color>
+  <color name="teal_200_cc">#cc8dc9cd</color>
+  <color name="pink_A400_4c">#4cff0089</color>
+  <color name="gray_200_cc">#cce7e7e7</color>
+  <color name="purple_600">#8c16b5</color>
+  <color name="white_A700">#ffffff</color>
+  <color name="purple_400">#984bbd</color>
+    <color name="rectangle_green">#9EFFA2</color>
+    <color name="rectangle_blue">#80D7FF</color>
+    <color name="rectangle_purple">#BEA3EF</color>
+    <color name="rectangle_red">#ECA9A9</color>
+    <color name="rectangle_grebl">#CBF0F4</color>
+    <color name="rectangle_shape">#7EFBE9A8</color>
+    <color name="rectangle_green2">#009688</color>
+    <color name="rectangle_pink">#FEE3FC</color>
+    <color name="purple">#D189EF</color>,
+    <color name="yellow">#FFEC48</color>
+
+</resources>

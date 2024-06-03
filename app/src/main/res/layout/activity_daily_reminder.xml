@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyReminderActivity">
+    <Button
+        android:id="@+id/buttonFavorite"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/ic_heart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/imagePlusoneOne"
+        android:layout_width="@dimen/_42pxh"
+        android:layout_height="@dimen/_44pxh"
+        android:layout_marginEnd="@dimen/_6pxh"
+        android:layout_marginTop="@dimen/_12pxv"
+        android:scaleType="fitXY"
+        android:background="@drawable/plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiperFreshLayout"
+        android:layout_width="418dp"
+        android:layout_height="826dp"
+        android:layout_marginTop="@dimen/_8pxv"
+        android:layout_marginBottom="@dimen/_5pxv"
+        android:background="@drawable/blueback"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/_41pxh"
+        android:paddingTop="@dimen/_121pxv"
+        android:paddingEnd="@dimen/_41pxh"
+        android:paddingBottom="@dimen/_121pxv"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagePlusoneOne"
+        app:layout_constraintVertical_bias="0.484">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_18pxv"
+            android:background="@drawable/blueback"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_86pxh"
+            android:paddingTop="@dimen/_41pxv"
+            android:paddingEnd="@dimen/_86pxh"
+            android:paddingBottom="@dimen/_41pxv" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D1D2F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_bar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">fatmanur_s_application1</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_sign_in">Sign In</string>
+    <string name="lbl_and">and</string>
+    <string name="lbl_privacy_policy">Privacy Policy</string>
+    <string name="msg_joined_us_before">Joined us before?  Sign In</string>
+    <string name="msg_terms_conditions">Terms &amp; Conditions</string>
+    <string name="lbl_sign_up">Sign Up</string>
+    <string name="msg_by_signing_up_you_re">By Signing up, You\u2019re agree to our Terms &amp; Conditions
+and Privacy Policy</string>
+    <string name="msg_sign_in_with">Sign In With
+   E-mail</string>
+    <string name="msg_sign_in_with_phone">   Sign In With
+ Phone Number</string>
+    <string name="lbl_or">OR</string>
+    <string name="lbl_password">Password</string>
+    <string name="msg_by_signing_up_you_re2">By Signing up, You\u2019re agree to our</string>
+    <string name="lbl_full_name">Full Name</string>
+    <string name="msg_e_mail">E-mail </string>
+    <string name="msg_joined_us_before2">Joined us before?</string>
+    <string name="msg_you_are_not_alone">You are not alone.</string>
+    <string name="home">Home </string>
+    <string name="calendar">Mood Tracker </string>
+    <string name="message">Message </string>
+    <string name="profile">Profile </string>
+    <string name="lbl_sign_out">Sign Out</string>
+    <string name="lbl_dear_User">Dear User</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sıgn_in">SıgnInActivity</string>
+    <string name="user_display_picture">User Display Picture</string>
+    <string name="click_here_to_reset">Click Here To Reset</string>
+</resources>

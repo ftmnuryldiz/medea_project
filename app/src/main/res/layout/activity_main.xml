@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rectangle_pink"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/rectangle_white"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_logo"
+            android:text="MEDEA "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/textView_main_head"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_app_name"
+            android:layout_marginTop="10dp"
+            android:text="Welcome \nto \nHappiness"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+        <Button
+            android:id="@+id/button_loginMain"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_main_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@color/rectangle_green"
+            android:text="SIGN IN" />
+
+        <TextView
+            android:id="@+id/textView_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_loginMain"
+            android:layout_marginTop="30dp"
+            android:text="Do not have an account?"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button_registerMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_register"
+            android:text="@string/lbl_sign_up"
+            android:background="@drawable/rectangle_white"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center" />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
